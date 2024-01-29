@@ -1,0 +1,66 @@
+.container {
+  background-color: rgb(237, 237, 237);
+  padding-block: 100px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: clamp(300px, 80%, 1000px);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.section {
+}
+.image {
+  border-radius: 10px;
+}
+.title {
+  font-size: 2rem;
+  margin-top: 5px;
+}
+.body {
+  color: gray;
+  margin-top: 10px;
+}
+.btnContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.backBtn {
+  background: gray;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.6s ease-in-out;
+  &:hover {
+    background-color: rgb(90, 90, 90);
+  }
+}
+.favBtn {
+  background-color: tomato;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.6s ease-in-out;
+  &:hover {
+    background-color: red;
+  }
+}
+.commentContainer {
+  padding: 20px;
+}
+.commentTitle {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.commentBody {
+  color: gray;
+}
